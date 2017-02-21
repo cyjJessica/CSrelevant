@@ -7,7 +7,7 @@ public class Percolation
 	private int n;
 	private int count = 0;
 
-	public Percolation(int n)
+	public Percolation(int n)//make a change here
 	{
 		this.n = n;// initialize the number of total rows and columns
 		arr = new int[n][n];// initialize all elements 0 as they are blocked
